@@ -1,0 +1,674 @@
+# Generated Makefile data for base1
+base1_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/base1/cockpit.js \
+	pkg/base1/manifest.json \
+	pkg/base1/test-base64.js \
+	pkg/base1/test-browser-storage.js \
+	pkg/base1/test-cache.js \
+	pkg/base1/test-chan.js \
+	pkg/base1/test-dbus-address.js \
+	pkg/base1/test-dbus-common.js \
+	pkg/base1/test-dbus-framed.js \
+	pkg/base1/test-dbus.js \
+	pkg/base1/test-echo.js \
+	pkg/base1/test-events.js \
+	pkg/base1/test-external.js \
+	pkg/base1/test-file.js \
+	pkg/base1/test-format.js \
+	pkg/base1/test-framed-cache.js \
+	pkg/base1/test-framed.js \
+	pkg/base1/test-http.js \
+	pkg/base1/test-journal-renderer.js \
+	pkg/base1/test-locale.js \
+	pkg/base1/test-location.js \
+	pkg/base1/test-metrics.js \
+	pkg/base1/test-no-jquery.js \
+	pkg/base1/test-permissions.js \
+	pkg/base1/test-promise.js \
+	pkg/base1/test-protocol.js \
+	pkg/base1/test-series.js \
+	pkg/base1/test-spawn-proc.js \
+	pkg/base1/test-spawn.js \
+	pkg/base1/test-user.js \
+	pkg/base1/test-utf8.js \
+	pkg/base1/test-websocket.js \
+	pkg/lib/cockpit.js \
+	pkg/lib/journal.js \
+	pkg/lib/qunit-config.js \
+	pkg/lib/qunit-template.html \
+	pkg/lib/qunit-tests.js \
+	pkg/lib/timeformat.js \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ka.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+base1_OUTPUTS = \
+	dist/base1/cockpit.js.gz \
+	dist/base1/po.cs.js.gz \
+	dist/base1/po.de.js.gz \
+	dist/base1/po.es.js.gz \
+	dist/base1/po.fi.js.gz \
+	dist/base1/po.fr.js.gz \
+	dist/base1/po.he.js.gz \
+	dist/base1/po.it.js.gz \
+	dist/base1/po.ja.js.gz \
+	dist/base1/po.ka.js.gz \
+	dist/base1/po.ko.js.gz \
+	dist/base1/po.nb_NO.js.gz \
+	dist/base1/po.nl.js.gz \
+	dist/base1/po.pl.js.gz \
+	dist/base1/po.pt_BR.js.gz \
+	dist/base1/po.ru.js.gz \
+	dist/base1/po.sk.js.gz \
+	dist/base1/po.sv.js.gz \
+	dist/base1/po.tr.js.gz \
+	dist/base1/po.uk.js.gz \
+	dist/base1/po.zh_CN.js.gz \
+	dist/base1/po.zh_TW.js.gz \
+	dist/base1/test-base64.css \
+	dist/base1/test-base64.html \
+	dist/base1/test-base64.js \
+	dist/base1/test-base64.js.LICENSE.txt \
+	dist/base1/test-browser-storage.css \
+	dist/base1/test-browser-storage.html \
+	dist/base1/test-browser-storage.js \
+	dist/base1/test-browser-storage.js.LICENSE.txt \
+	dist/base1/test-cache.css \
+	dist/base1/test-cache.html \
+	dist/base1/test-cache.js \
+	dist/base1/test-cache.js.LICENSE.txt \
+	dist/base1/test-chan.css \
+	dist/base1/test-chan.html \
+	dist/base1/test-chan.js \
+	dist/base1/test-chan.js.LICENSE.txt \
+	dist/base1/test-dbus-address.css \
+	dist/base1/test-dbus-address.html \
+	dist/base1/test-dbus-address.js \
+	dist/base1/test-dbus-address.js.LICENSE.txt \
+	dist/base1/test-dbus-framed.css \
+	dist/base1/test-dbus-framed.html \
+	dist/base1/test-dbus-framed.js \
+	dist/base1/test-dbus-framed.js.LICENSE.txt \
+	dist/base1/test-dbus.css \
+	dist/base1/test-dbus.html \
+	dist/base1/test-dbus.js \
+	dist/base1/test-dbus.js.LICENSE.txt \
+	dist/base1/test-echo.css \
+	dist/base1/test-echo.html \
+	dist/base1/test-echo.js \
+	dist/base1/test-echo.js.LICENSE.txt \
+	dist/base1/test-events.css \
+	dist/base1/test-events.html \
+	dist/base1/test-events.js \
+	dist/base1/test-events.js.LICENSE.txt \
+	dist/base1/test-external.css \
+	dist/base1/test-external.html \
+	dist/base1/test-external.js \
+	dist/base1/test-external.js.LICENSE.txt \
+	dist/base1/test-file.css \
+	dist/base1/test-file.html \
+	dist/base1/test-file.js \
+	dist/base1/test-file.js.LICENSE.txt \
+	dist/base1/test-format.css \
+	dist/base1/test-format.html \
+	dist/base1/test-format.js \
+	dist/base1/test-format.js.LICENSE.txt \
+	dist/base1/test-framed-cache.css \
+	dist/base1/test-framed-cache.html \
+	dist/base1/test-framed-cache.js \
+	dist/base1/test-framed-cache.js.LICENSE.txt \
+	dist/base1/test-framed.css \
+	dist/base1/test-framed.html \
+	dist/base1/test-framed.js \
+	dist/base1/test-framed.js.LICENSE.txt \
+	dist/base1/test-http.css \
+	dist/base1/test-http.html \
+	dist/base1/test-http.js \
+	dist/base1/test-http.js.LICENSE.txt \
+	dist/base1/test-journal-renderer.css \
+	dist/base1/test-journal-renderer.html \
+	dist/base1/test-journal-renderer.js \
+	dist/base1/test-journal-renderer.js.LICENSE.txt \
+	dist/base1/test-locale.css \
+	dist/base1/test-locale.html \
+	dist/base1/test-locale.js \
+	dist/base1/test-locale.js.LICENSE.txt \
+	dist/base1/test-location.css \
+	dist/base1/test-location.html \
+	dist/base1/test-location.js \
+	dist/base1/test-location.js.LICENSE.txt \
+	dist/base1/test-metrics.css \
+	dist/base1/test-metrics.html \
+	dist/base1/test-metrics.js \
+	dist/base1/test-metrics.js.LICENSE.txt \
+	dist/base1/test-no-jquery.css \
+	dist/base1/test-no-jquery.html \
+	dist/base1/test-no-jquery.js \
+	dist/base1/test-no-jquery.js.LICENSE.txt \
+	dist/base1/test-permissions.css \
+	dist/base1/test-permissions.html \
+	dist/base1/test-permissions.js \
+	dist/base1/test-permissions.js.LICENSE.txt \
+	dist/base1/test-promise.css \
+	dist/base1/test-promise.html \
+	dist/base1/test-promise.js \
+	dist/base1/test-promise.js.LICENSE.txt \
+	dist/base1/test-protocol.css \
+	dist/base1/test-protocol.html \
+	dist/base1/test-protocol.js \
+	dist/base1/test-protocol.js.LICENSE.txt \
+	dist/base1/test-series.css \
+	dist/base1/test-series.html \
+	dist/base1/test-series.js \
+	dist/base1/test-series.js.LICENSE.txt \
+	dist/base1/test-spawn-proc.css \
+	dist/base1/test-spawn-proc.html \
+	dist/base1/test-spawn-proc.js \
+	dist/base1/test-spawn-proc.js.LICENSE.txt \
+	dist/base1/test-spawn.css \
+	dist/base1/test-spawn.html \
+	dist/base1/test-spawn.js \
+	dist/base1/test-spawn.js.LICENSE.txt \
+	dist/base1/test-user.css \
+	dist/base1/test-user.html \
+	dist/base1/test-user.js \
+	dist/base1/test-user.js.LICENSE.txt \
+	dist/base1/test-utf8.css \
+	dist/base1/test-utf8.html \
+	dist/base1/test-utf8.js \
+	dist/base1/test-utf8.js.LICENSE.txt \
+	dist/base1/test-websocket.css \
+	dist/base1/test-websocket.html \
+	dist/base1/test-websocket.js \
+	dist/base1/test-websocket.js.LICENSE.txt \
+	$(NULL)
+
+base1_INSTALL = \
+	dist/base1/cockpit.js.gz \
+	dist/base1/manifest.json \
+	dist/base1/po.cs.js.gz \
+	dist/base1/po.de.js.gz \
+	dist/base1/po.es.js.gz \
+	dist/base1/po.fi.js.gz \
+	dist/base1/po.fr.js.gz \
+	dist/base1/po.he.js.gz \
+	dist/base1/po.it.js.gz \
+	dist/base1/po.ja.js.gz \
+	dist/base1/po.ka.js.gz \
+	dist/base1/po.ko.js.gz \
+	dist/base1/po.nb_NO.js.gz \
+	dist/base1/po.nl.js.gz \
+	dist/base1/po.pl.js.gz \
+	dist/base1/po.pt_BR.js.gz \
+	dist/base1/po.ru.js.gz \
+	dist/base1/po.sk.js.gz \
+	dist/base1/po.sv.js.gz \
+	dist/base1/po.tr.js.gz \
+	dist/base1/po.uk.js.gz \
+	dist/base1/po.zh_CN.js.gz \
+	dist/base1/po.zh_TW.js.gz \
+	$(NULL)
+
+base1_TESTS = \
+	dist/base1/test-base64.html \
+	dist/base1/test-browser-storage.html \
+	dist/base1/test-cache.html \
+	dist/base1/test-chan.html \
+	dist/base1/test-dbus-address.html \
+	dist/base1/test-dbus-framed.html \
+	dist/base1/test-dbus.html \
+	dist/base1/test-echo.html \
+	dist/base1/test-events.html \
+	dist/base1/test-external.html \
+	dist/base1/test-file.html \
+	dist/base1/test-format.html \
+	dist/base1/test-framed-cache.html \
+	dist/base1/test-framed.html \
+	dist/base1/test-http.html \
+	dist/base1/test-journal-renderer.html \
+	dist/base1/test-locale.html \
+	dist/base1/test-location.html \
+	dist/base1/test-metrics.html \
+	dist/base1/test-no-jquery.html \
+	dist/base1/test-permissions.html \
+	dist/base1/test-promise.html \
+	dist/base1/test-protocol.html \
+	dist/base1/test-series.html \
+	dist/base1/test-spawn-proc.html \
+	dist/base1/test-spawn.html \
+	dist/base1/test-user.html \
+	dist/base1/test-utf8.html \
+	dist/base1/test-websocket.html \
+	$(NULL)
+
+dist/base1/manifest.json: $(base1_INPUTS)
+
+dist/base1/cockpit.js.gz: dist/base1/manifest.json
+
+dist/base1/po.cs.js.gz: dist/base1/manifest.json
+
+dist/base1/po.de.js.gz: dist/base1/manifest.json
+
+dist/base1/po.es.js.gz: dist/base1/manifest.json
+
+dist/base1/po.fi.js.gz: dist/base1/manifest.json
+
+dist/base1/po.fr.js.gz: dist/base1/manifest.json
+
+dist/base1/po.he.js.gz: dist/base1/manifest.json
+
+dist/base1/po.it.js.gz: dist/base1/manifest.json
+
+dist/base1/po.ja.js.gz: dist/base1/manifest.json
+
+dist/base1/po.ka.js.gz: dist/base1/manifest.json
+
+dist/base1/po.ko.js.gz: dist/base1/manifest.json
+
+dist/base1/po.nb_NO.js.gz: dist/base1/manifest.json
+
+dist/base1/po.nl.js.gz: dist/base1/manifest.json
+
+dist/base1/po.pl.js.gz: dist/base1/manifest.json
+
+dist/base1/po.pt_BR.js.gz: dist/base1/manifest.json
+
+dist/base1/po.ru.js.gz: dist/base1/manifest.json
+
+dist/base1/po.sk.js.gz: dist/base1/manifest.json
+
+dist/base1/po.sv.js.gz: dist/base1/manifest.json
+
+dist/base1/po.tr.js.gz: dist/base1/manifest.json
+
+dist/base1/po.uk.js.gz: dist/base1/manifest.json
+
+dist/base1/po.zh_CN.js.gz: dist/base1/manifest.json
+
+dist/base1/po.zh_TW.js.gz: dist/base1/manifest.json
+
+dist/base1/test-base64.css: dist/base1/manifest.json
+
+dist/base1/test-base64.html: dist/base1/manifest.json
+
+dist/base1/test-base64.js: dist/base1/manifest.json
+
+dist/base1/test-base64.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-browser-storage.css: dist/base1/manifest.json
+
+dist/base1/test-browser-storage.html: dist/base1/manifest.json
+
+dist/base1/test-browser-storage.js: dist/base1/manifest.json
+
+dist/base1/test-browser-storage.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-cache.css: dist/base1/manifest.json
+
+dist/base1/test-cache.html: dist/base1/manifest.json
+
+dist/base1/test-cache.js: dist/base1/manifest.json
+
+dist/base1/test-cache.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-chan.css: dist/base1/manifest.json
+
+dist/base1/test-chan.html: dist/base1/manifest.json
+
+dist/base1/test-chan.js: dist/base1/manifest.json
+
+dist/base1/test-chan.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-dbus-address.css: dist/base1/manifest.json
+
+dist/base1/test-dbus-address.html: dist/base1/manifest.json
+
+dist/base1/test-dbus-address.js: dist/base1/manifest.json
+
+dist/base1/test-dbus-address.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-dbus-framed.css: dist/base1/manifest.json
+
+dist/base1/test-dbus-framed.html: dist/base1/manifest.json
+
+dist/base1/test-dbus-framed.js: dist/base1/manifest.json
+
+dist/base1/test-dbus-framed.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-dbus.css: dist/base1/manifest.json
+
+dist/base1/test-dbus.html: dist/base1/manifest.json
+
+dist/base1/test-dbus.js: dist/base1/manifest.json
+
+dist/base1/test-dbus.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-echo.css: dist/base1/manifest.json
+
+dist/base1/test-echo.html: dist/base1/manifest.json
+
+dist/base1/test-echo.js: dist/base1/manifest.json
+
+dist/base1/test-echo.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-events.css: dist/base1/manifest.json
+
+dist/base1/test-events.html: dist/base1/manifest.json
+
+dist/base1/test-events.js: dist/base1/manifest.json
+
+dist/base1/test-events.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-external.css: dist/base1/manifest.json
+
+dist/base1/test-external.html: dist/base1/manifest.json
+
+dist/base1/test-external.js: dist/base1/manifest.json
+
+dist/base1/test-external.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-file.css: dist/base1/manifest.json
+
+dist/base1/test-file.html: dist/base1/manifest.json
+
+dist/base1/test-file.js: dist/base1/manifest.json
+
+dist/base1/test-file.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-format.css: dist/base1/manifest.json
+
+dist/base1/test-format.html: dist/base1/manifest.json
+
+dist/base1/test-format.js: dist/base1/manifest.json
+
+dist/base1/test-format.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-framed-cache.css: dist/base1/manifest.json
+
+dist/base1/test-framed-cache.html: dist/base1/manifest.json
+
+dist/base1/test-framed-cache.js: dist/base1/manifest.json
+
+dist/base1/test-framed-cache.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-framed.css: dist/base1/manifest.json
+
+dist/base1/test-framed.html: dist/base1/manifest.json
+
+dist/base1/test-framed.js: dist/base1/manifest.json
+
+dist/base1/test-framed.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-http.css: dist/base1/manifest.json
+
+dist/base1/test-http.html: dist/base1/manifest.json
+
+dist/base1/test-http.js: dist/base1/manifest.json
+
+dist/base1/test-http.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-journal-renderer.css: dist/base1/manifest.json
+
+dist/base1/test-journal-renderer.html: dist/base1/manifest.json
+
+dist/base1/test-journal-renderer.js: dist/base1/manifest.json
+
+dist/base1/test-journal-renderer.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-locale.css: dist/base1/manifest.json
+
+dist/base1/test-locale.html: dist/base1/manifest.json
+
+dist/base1/test-locale.js: dist/base1/manifest.json
+
+dist/base1/test-locale.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-location.css: dist/base1/manifest.json
+
+dist/base1/test-location.html: dist/base1/manifest.json
+
+dist/base1/test-location.js: dist/base1/manifest.json
+
+dist/base1/test-location.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-metrics.css: dist/base1/manifest.json
+
+dist/base1/test-metrics.html: dist/base1/manifest.json
+
+dist/base1/test-metrics.js: dist/base1/manifest.json
+
+dist/base1/test-metrics.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-no-jquery.css: dist/base1/manifest.json
+
+dist/base1/test-no-jquery.html: dist/base1/manifest.json
+
+dist/base1/test-no-jquery.js: dist/base1/manifest.json
+
+dist/base1/test-no-jquery.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-permissions.css: dist/base1/manifest.json
+
+dist/base1/test-permissions.html: dist/base1/manifest.json
+
+dist/base1/test-permissions.js: dist/base1/manifest.json
+
+dist/base1/test-permissions.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-promise.css: dist/base1/manifest.json
+
+dist/base1/test-promise.html: dist/base1/manifest.json
+
+dist/base1/test-promise.js: dist/base1/manifest.json
+
+dist/base1/test-promise.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-protocol.css: dist/base1/manifest.json
+
+dist/base1/test-protocol.html: dist/base1/manifest.json
+
+dist/base1/test-protocol.js: dist/base1/manifest.json
+
+dist/base1/test-protocol.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-series.css: dist/base1/manifest.json
+
+dist/base1/test-series.html: dist/base1/manifest.json
+
+dist/base1/test-series.js: dist/base1/manifest.json
+
+dist/base1/test-series.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-spawn-proc.css: dist/base1/manifest.json
+
+dist/base1/test-spawn-proc.html: dist/base1/manifest.json
+
+dist/base1/test-spawn-proc.js: dist/base1/manifest.json
+
+dist/base1/test-spawn-proc.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-spawn.css: dist/base1/manifest.json
+
+dist/base1/test-spawn.html: dist/base1/manifest.json
+
+dist/base1/test-spawn.js: dist/base1/manifest.json
+
+dist/base1/test-spawn.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-user.css: dist/base1/manifest.json
+
+dist/base1/test-user.html: dist/base1/manifest.json
+
+dist/base1/test-user.js: dist/base1/manifest.json
+
+dist/base1/test-user.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-utf8.css: dist/base1/manifest.json
+
+dist/base1/test-utf8.html: dist/base1/manifest.json
+
+dist/base1/test-utf8.js: dist/base1/manifest.json
+
+dist/base1/test-utf8.js.LICENSE.txt: dist/base1/manifest.json
+
+dist/base1/test-websocket.css: dist/base1/manifest.json
+
+dist/base1/test-websocket.html: dist/base1/manifest.json
+
+dist/base1/test-websocket.js: dist/base1/manifest.json
+
+dist/base1/test-websocket.js.LICENSE.txt: dist/base1/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/base1/cockpit.js:
+
+pkg/base1/manifest.json:
+
+pkg/base1/test-base64.js:
+
+pkg/base1/test-browser-storage.js:
+
+pkg/base1/test-cache.js:
+
+pkg/base1/test-chan.js:
+
+pkg/base1/test-dbus-address.js:
+
+pkg/base1/test-dbus-common.js:
+
+pkg/base1/test-dbus-framed.js:
+
+pkg/base1/test-dbus.js:
+
+pkg/base1/test-echo.js:
+
+pkg/base1/test-events.js:
+
+pkg/base1/test-external.js:
+
+pkg/base1/test-file.js:
+
+pkg/base1/test-format.js:
+
+pkg/base1/test-framed-cache.js:
+
+pkg/base1/test-framed.js:
+
+pkg/base1/test-http.js:
+
+pkg/base1/test-journal-renderer.js:
+
+pkg/base1/test-locale.js:
+
+pkg/base1/test-location.js:
+
+pkg/base1/test-metrics.js:
+
+pkg/base1/test-no-jquery.js:
+
+pkg/base1/test-permissions.js:
+
+pkg/base1/test-promise.js:
+
+pkg/base1/test-protocol.js:
+
+pkg/base1/test-series.js:
+
+pkg/base1/test-spawn-proc.js:
+
+pkg/base1/test-spawn.js:
+
+pkg/base1/test-user.js:
+
+pkg/base1/test-utf8.js:
+
+pkg/base1/test-websocket.js:
+
+pkg/lib/cockpit.js:
+
+pkg/lib/journal.js:
+
+pkg/lib/qunit-config.js:
+
+pkg/lib/qunit-template.html:
+
+pkg/lib/qunit-tests.js:
+
+pkg/lib/timeformat.js:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ka.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(base1_INPUTS)
+WEBPACK_OUTPUTS += $(base1_OUTPUTS)
+WEBPACK_INSTALL += $(base1_INSTALL)
+WEBPACK_GZ_INSTALL += $(base1_GZ_INSTALL)
+TESTS += $(base1_TESTS)
+
+base1: dist/base1/manifest.json

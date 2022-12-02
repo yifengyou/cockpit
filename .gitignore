@@ -1,3 +1,10 @@
+RPMS
+SRPMS
+BUILDROOT
+*.rpm
+
+
+
 # Prerequisites
 *.d
 

@@ -1,0 +1,227 @@
+# Generated Makefile data for tuned
+tuned_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/dialogs.jsx \
+	pkg/lib/hooks.js \
+	pkg/lib/menu-select-widget.scss \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/systemd/overview-cards/profiles-menu-dialog-body.jsx \
+	pkg/tuned/dialog.jsx \
+	pkg/tuned/manifest.json \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ka.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+tuned_OUTPUTS = \
+	dist/tuned/performance.css.gz \
+	dist/tuned/performance.js.LICENSE.txt.gz \
+	dist/tuned/performance.js.gz \
+	dist/tuned/po.cs.js.gz \
+	dist/tuned/po.de.js.gz \
+	dist/tuned/po.es.js.gz \
+	dist/tuned/po.fi.js.gz \
+	dist/tuned/po.fr.js.gz \
+	dist/tuned/po.he.js.gz \
+	dist/tuned/po.it.js.gz \
+	dist/tuned/po.ja.js.gz \
+	dist/tuned/po.ka.js.gz \
+	dist/tuned/po.ko.js.gz \
+	dist/tuned/po.nb_NO.js.gz \
+	dist/tuned/po.nl.js.gz \
+	dist/tuned/po.pl.js.gz \
+	dist/tuned/po.pt_BR.js.gz \
+	dist/tuned/po.ru.js.gz \
+	dist/tuned/po.sk.js.gz \
+	dist/tuned/po.sv.js.gz \
+	dist/tuned/po.tr.js.gz \
+	dist/tuned/po.uk.js.gz \
+	dist/tuned/po.zh_CN.js.gz \
+	dist/tuned/po.zh_TW.js.gz \
+	$(NULL)
+
+tuned_INSTALL = \
+	dist/tuned/manifest.json \
+	dist/tuned/performance.css.gz \
+	dist/tuned/performance.js.LICENSE.txt.gz \
+	dist/tuned/performance.js.gz \
+	dist/tuned/po.cs.js.gz \
+	dist/tuned/po.de.js.gz \
+	dist/tuned/po.es.js.gz \
+	dist/tuned/po.fi.js.gz \
+	dist/tuned/po.fr.js.gz \
+	dist/tuned/po.he.js.gz \
+	dist/tuned/po.it.js.gz \
+	dist/tuned/po.ja.js.gz \
+	dist/tuned/po.ka.js.gz \
+	dist/tuned/po.ko.js.gz \
+	dist/tuned/po.nb_NO.js.gz \
+	dist/tuned/po.nl.js.gz \
+	dist/tuned/po.pl.js.gz \
+	dist/tuned/po.pt_BR.js.gz \
+	dist/tuned/po.ru.js.gz \
+	dist/tuned/po.sk.js.gz \
+	dist/tuned/po.sv.js.gz \
+	dist/tuned/po.tr.js.gz \
+	dist/tuned/po.uk.js.gz \
+	dist/tuned/po.zh_CN.js.gz \
+	dist/tuned/po.zh_TW.js.gz \
+	$(NULL)
+
+tuned_TESTS = \
+	$(NULL)
+
+dist/tuned/manifest.json: $(tuned_INPUTS)
+
+dist/tuned/performance.css.gz: dist/tuned/manifest.json
+
+dist/tuned/performance.js.LICENSE.txt.gz: dist/tuned/manifest.json
+
+dist/tuned/performance.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.cs.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.de.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.es.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.fi.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.fr.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.he.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.it.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.ja.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.ka.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.ko.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.nb_NO.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.nl.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.pl.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.pt_BR.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.ru.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.sk.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.sv.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.tr.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.uk.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.zh_CN.js.gz: dist/tuned/manifest.json
+
+dist/tuned/po.zh_TW.js.gz: dist/tuned/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/dialogs.jsx:
+
+pkg/lib/hooks.js:
+
+pkg/lib/menu-select-widget.scss:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/systemd/overview-cards/profiles-menu-dialog-body.jsx:
+
+pkg/tuned/dialog.jsx:
+
+pkg/tuned/manifest.json:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ka.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(tuned_INPUTS)
+WEBPACK_OUTPUTS += $(tuned_OUTPUTS)
+WEBPACK_INSTALL += $(tuned_INSTALL)
+WEBPACK_GZ_INSTALL += $(tuned_GZ_INSTALL)
+TESTS += $(tuned_TESTS)
+
+tuned: dist/tuned/manifest.json

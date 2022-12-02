@@ -1,0 +1,391 @@
+# Generated Makefile data for shell
+shell_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-file-autocomplete.jsx \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/cockpit-components-listing-panel.jsx \
+	pkg/lib/cockpit-components-listing-panel.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/credentials-ssh-private-keys.sh \
+	pkg/lib/credentials-ssh-remove-key.sh \
+	pkg/lib/credentials.js \
+	pkg/lib/dialogs.jsx \
+	pkg/lib/hooks.js \
+	pkg/lib/menu-select-widget.scss \
+	pkg/lib/os-release.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/polyfills.js \
+	pkg/lib/qunit-config.js \
+	pkg/lib/qunit-template.html \
+	pkg/lib/qunit-tests.js \
+	pkg/lib/table.css \
+	pkg/shell/active-pages-modal.jsx \
+	pkg/shell/base_index.js \
+	pkg/shell/credentials.jsx \
+	pkg/shell/credentials.scss \
+	pkg/shell/failures.jsx \
+	pkg/shell/hosts.jsx \
+	pkg/shell/hosts_dialog.jsx \
+	pkg/shell/images/bg-plain.jpg \
+	pkg/shell/images/cockpit-icon.svg \
+	pkg/shell/images/server-error.png \
+	pkg/shell/images/server-large.png \
+	pkg/shell/images/server-small.png \
+	pkg/shell/index.html \
+	pkg/shell/index.js \
+	pkg/shell/indexes.jsx \
+	pkg/shell/machines/machines.js \
+	pkg/shell/machines/ssh-add-key.sh \
+	pkg/shell/machines/ssh-show-default-key.sh \
+	pkg/shell/machines/test-machines.js \
+	pkg/shell/manifest.json \
+	pkg/shell/nav.jsx \
+	pkg/shell/nav.scss \
+	pkg/shell/shell-modals.jsx \
+	pkg/shell/shell.html \
+	pkg/shell/shell.scss \
+	pkg/shell/superuser.jsx \
+	pkg/shell/topnav.jsx \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ka.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+shell_OUTPUTS = \
+	dist/shell/images/bg-plain.jpg \
+	dist/shell/images/cockpit-icon.svg \
+	dist/shell/images/server-error.png \
+	dist/shell/images/server-large.png \
+	dist/shell/images/server-small.png \
+	dist/shell/index.css.gz \
+	dist/shell/index.html \
+	dist/shell/index.js.LICENSE.txt.gz \
+	dist/shell/index.js.gz \
+	dist/shell/machines/test-machines.css \
+	dist/shell/machines/test-machines.html \
+	dist/shell/machines/test-machines.js \
+	dist/shell/machines/test-machines.js.LICENSE.txt \
+	dist/shell/po.cs.js.gz \
+	dist/shell/po.de.js.gz \
+	dist/shell/po.es.js.gz \
+	dist/shell/po.fi.js.gz \
+	dist/shell/po.fr.js.gz \
+	dist/shell/po.he.js.gz \
+	dist/shell/po.it.js.gz \
+	dist/shell/po.ja.js.gz \
+	dist/shell/po.ka.js.gz \
+	dist/shell/po.ko.js.gz \
+	dist/shell/po.nb_NO.js.gz \
+	dist/shell/po.nl.js.gz \
+	dist/shell/po.pl.js.gz \
+	dist/shell/po.pt_BR.js.gz \
+	dist/shell/po.ru.js.gz \
+	dist/shell/po.sk.js.gz \
+	dist/shell/po.sv.js.gz \
+	dist/shell/po.tr.js.gz \
+	dist/shell/po.uk.js.gz \
+	dist/shell/po.zh_CN.js.gz \
+	dist/shell/po.zh_TW.js.gz \
+	dist/shell/shell.html.gz \
+	$(NULL)
+
+shell_INSTALL = \
+	dist/shell/images/bg-plain.jpg \
+	dist/shell/images/cockpit-icon.svg \
+	dist/shell/images/server-error.png \
+	dist/shell/images/server-large.png \
+	dist/shell/images/server-small.png \
+	dist/shell/index.css.gz \
+	dist/shell/index.html \
+	dist/shell/index.js.LICENSE.txt.gz \
+	dist/shell/index.js.gz \
+	dist/shell/manifest.json \
+	dist/shell/po.cs.js.gz \
+	dist/shell/po.de.js.gz \
+	dist/shell/po.es.js.gz \
+	dist/shell/po.fi.js.gz \
+	dist/shell/po.fr.js.gz \
+	dist/shell/po.he.js.gz \
+	dist/shell/po.it.js.gz \
+	dist/shell/po.ja.js.gz \
+	dist/shell/po.ka.js.gz \
+	dist/shell/po.ko.js.gz \
+	dist/shell/po.nb_NO.js.gz \
+	dist/shell/po.nl.js.gz \
+	dist/shell/po.pl.js.gz \
+	dist/shell/po.pt_BR.js.gz \
+	dist/shell/po.ru.js.gz \
+	dist/shell/po.sk.js.gz \
+	dist/shell/po.sv.js.gz \
+	dist/shell/po.tr.js.gz \
+	dist/shell/po.uk.js.gz \
+	dist/shell/po.zh_CN.js.gz \
+	dist/shell/po.zh_TW.js.gz \
+	dist/shell/shell.html.gz \
+	$(NULL)
+
+shell_TESTS = \
+	dist/shell/machines/test-machines.html \
+	$(NULL)
+
+dist/shell/manifest.json: $(shell_INPUTS)
+
+dist/shell/images/bg-plain.jpg: dist/shell/manifest.json
+
+dist/shell/images/cockpit-icon.svg: dist/shell/manifest.json
+
+dist/shell/images/server-error.png: dist/shell/manifest.json
+
+dist/shell/images/server-large.png: dist/shell/manifest.json
+
+dist/shell/images/server-small.png: dist/shell/manifest.json
+
+dist/shell/index.css.gz: dist/shell/manifest.json
+
+dist/shell/index.html: dist/shell/manifest.json
+
+dist/shell/index.js.LICENSE.txt.gz: dist/shell/manifest.json
+
+dist/shell/index.js.gz: dist/shell/manifest.json
+
+dist/shell/machines/test-machines.css: dist/shell/manifest.json
+
+dist/shell/machines/test-machines.html: dist/shell/manifest.json
+
+dist/shell/machines/test-machines.js: dist/shell/manifest.json
+
+dist/shell/machines/test-machines.js.LICENSE.txt: dist/shell/manifest.json
+
+dist/shell/po.cs.js.gz: dist/shell/manifest.json
+
+dist/shell/po.de.js.gz: dist/shell/manifest.json
+
+dist/shell/po.es.js.gz: dist/shell/manifest.json
+
+dist/shell/po.fi.js.gz: dist/shell/manifest.json
+
+dist/shell/po.fr.js.gz: dist/shell/manifest.json
+
+dist/shell/po.he.js.gz: dist/shell/manifest.json
+
+dist/shell/po.it.js.gz: dist/shell/manifest.json
+
+dist/shell/po.ja.js.gz: dist/shell/manifest.json
+
+dist/shell/po.ka.js.gz: dist/shell/manifest.json
+
+dist/shell/po.ko.js.gz: dist/shell/manifest.json
+
+dist/shell/po.nb_NO.js.gz: dist/shell/manifest.json
+
+dist/shell/po.nl.js.gz: dist/shell/manifest.json
+
+dist/shell/po.pl.js.gz: dist/shell/manifest.json
+
+dist/shell/po.pt_BR.js.gz: dist/shell/manifest.json
+
+dist/shell/po.ru.js.gz: dist/shell/manifest.json
+
+dist/shell/po.sk.js.gz: dist/shell/manifest.json
+
+dist/shell/po.sv.js.gz: dist/shell/manifest.json
+
+dist/shell/po.tr.js.gz: dist/shell/manifest.json
+
+dist/shell/po.uk.js.gz: dist/shell/manifest.json
+
+dist/shell/po.zh_CN.js.gz: dist/shell/manifest.json
+
+dist/shell/po.zh_TW.js.gz: dist/shell/manifest.json
+
+dist/shell/shell.html.gz: dist/shell/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-file-autocomplete.jsx:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/cockpit-components-listing-panel.jsx:
+
+pkg/lib/cockpit-components-listing-panel.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/credentials-ssh-private-keys.sh:
+
+pkg/lib/credentials-ssh-remove-key.sh:
+
+pkg/lib/credentials.js:
+
+pkg/lib/dialogs.jsx:
+
+pkg/lib/hooks.js:
+
+pkg/lib/menu-select-widget.scss:
+
+pkg/lib/os-release.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/polyfills.js:
+
+pkg/lib/qunit-config.js:
+
+pkg/lib/qunit-template.html:
+
+pkg/lib/qunit-tests.js:
+
+pkg/lib/table.css:
+
+pkg/shell/active-pages-modal.jsx:
+
+pkg/shell/base_index.js:
+
+pkg/shell/credentials.jsx:
+
+pkg/shell/credentials.scss:
+
+pkg/shell/failures.jsx:
+
+pkg/shell/hosts.jsx:
+
+pkg/shell/hosts_dialog.jsx:
+
+pkg/shell/images/bg-plain.jpg:
+
+pkg/shell/images/cockpit-icon.svg:
+
+pkg/shell/images/server-error.png:
+
+pkg/shell/images/server-large.png:
+
+pkg/shell/images/server-small.png:
+
+pkg/shell/index.html:
+
+pkg/shell/index.js:
+
+pkg/shell/indexes.jsx:
+
+pkg/shell/machines/machines.js:
+
+pkg/shell/machines/ssh-add-key.sh:
+
+pkg/shell/machines/ssh-show-default-key.sh:
+
+pkg/shell/machines/test-machines.js:
+
+pkg/shell/manifest.json:
+
+pkg/shell/nav.jsx:
+
+pkg/shell/nav.scss:
+
+pkg/shell/shell-modals.jsx:
+
+pkg/shell/shell.html:
+
+pkg/shell/shell.scss:
+
+pkg/shell/superuser.jsx:
+
+pkg/shell/topnav.jsx:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ka.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(shell_INPUTS)
+WEBPACK_OUTPUTS += $(shell_OUTPUTS)
+WEBPACK_INSTALL += $(shell_INSTALL)
+WEBPACK_GZ_INSTALL += $(shell_GZ_INSTALL)
+TESTS += $(shell_TESTS)
+
+shell: dist/shell/manifest.json

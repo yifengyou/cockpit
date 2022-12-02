@@ -1,0 +1,489 @@
+# Generated Makefile data for storaged
+storaged_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/cockpit-components-dialog.scss \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-install-dialog.css \
+	pkg/lib/cockpit-components-install-dialog.jsx \
+	pkg/lib/cockpit-components-listing-panel.jsx \
+	pkg/lib/cockpit-components-listing-panel.scss \
+	pkg/lib/cockpit-components-logs-panel.jsx \
+	pkg/lib/cockpit-components-logs-panel.scss \
+	pkg/lib/cockpit-components-plot.jsx \
+	pkg/lib/cockpit-components-plot.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/ct-card.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/inotify.py \
+	pkg/lib/journal.css \
+	pkg/lib/journal.js \
+	pkg/lib/os-release.js \
+	pkg/lib/packagekit.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/plot.js \
+	pkg/lib/polyfills.js \
+	pkg/lib/python.js \
+	pkg/lib/qunit-config.js \
+	pkg/lib/qunit-template.html \
+	pkg/lib/qunit-tests.js \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/lib/table.css \
+	pkg/lib/timeformat.js \
+	pkg/lib/utils.jsx \
+	pkg/storaged/block-details.jsx \
+	pkg/storaged/clevis-luks-passphrase.sh \
+	pkg/storaged/client.js \
+	pkg/storaged/content-views.jsx \
+	pkg/storaged/crypto-keyslots.jsx \
+	pkg/storaged/crypto-panel.jsx \
+	pkg/storaged/crypto-tab.jsx \
+	pkg/storaged/details.jsx \
+	pkg/storaged/devices.jsx \
+	pkg/storaged/dialog.jsx \
+	pkg/storaged/drive-details.jsx \
+	pkg/storaged/drives-panel.jsx \
+	pkg/storaged/format-dialog.jsx \
+	pkg/storaged/fsys-panel.jsx \
+	pkg/storaged/fsys-tab.jsx \
+	pkg/storaged/images/storage-array.png \
+	pkg/storaged/images/storage-disk.png \
+	pkg/storaged/index.html \
+	pkg/storaged/iscsi-panel.jsx \
+	pkg/storaged/jobs-panel.jsx \
+	pkg/storaged/logs-panel.jsx \
+	pkg/storaged/luksmeta-monitor-hack.py \
+	pkg/storaged/lvol-tabs.jsx \
+	pkg/storaged/manifest.json \
+	pkg/storaged/mdraid-details.jsx \
+	pkg/storaged/mdraids-panel.jsx \
+	pkg/storaged/mount-users.py \
+	pkg/storaged/multipath.jsx \
+	pkg/storaged/nfs-details.jsx \
+	pkg/storaged/nfs-mounts.py \
+	pkg/storaged/nfs-panel.jsx \
+	pkg/storaged/optional-panel.jsx \
+	pkg/storaged/others-panel.jsx \
+	pkg/storaged/overview.jsx \
+	pkg/storaged/part-tab.jsx \
+	pkg/storaged/plot.jsx \
+	pkg/storaged/side-panel.jsx \
+	pkg/storaged/storage-controls.jsx \
+	pkg/storaged/storage.scss \
+	pkg/storaged/stratis-details.jsx \
+	pkg/storaged/stratis-panel.jsx \
+	pkg/storaged/stratis2-set-key.py \
+	pkg/storaged/stratis3-set-key.py \
+	pkg/storaged/swap-tab.jsx \
+	pkg/storaged/test-util.js \
+	pkg/storaged/things-panel.jsx \
+	pkg/storaged/unrecognized-tab.jsx \
+	pkg/storaged/utils.js \
+	pkg/storaged/vdo-details.jsx \
+	pkg/storaged/vdo-monitor.py \
+	pkg/storaged/vdos-panel.jsx \
+	pkg/storaged/vgroup-details.jsx \
+	pkg/storaged/vgroups-panel.jsx \
+	pkg/storaged/warnings.jsx \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ka.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+storaged_OUTPUTS = \
+	dist/storaged/images/storage-array.png \
+	dist/storaged/images/storage-disk.png \
+	dist/storaged/index.html.gz \
+	dist/storaged/po.cs.js.gz \
+	dist/storaged/po.de.js.gz \
+	dist/storaged/po.es.js.gz \
+	dist/storaged/po.fi.js.gz \
+	dist/storaged/po.fr.js.gz \
+	dist/storaged/po.he.js.gz \
+	dist/storaged/po.it.js.gz \
+	dist/storaged/po.ja.js.gz \
+	dist/storaged/po.ka.js.gz \
+	dist/storaged/po.ko.js.gz \
+	dist/storaged/po.nb_NO.js.gz \
+	dist/storaged/po.nl.js.gz \
+	dist/storaged/po.pl.js.gz \
+	dist/storaged/po.pt_BR.js.gz \
+	dist/storaged/po.ru.js.gz \
+	dist/storaged/po.sk.js.gz \
+	dist/storaged/po.sv.js.gz \
+	dist/storaged/po.tr.js.gz \
+	dist/storaged/po.uk.js.gz \
+	dist/storaged/po.zh_CN.js.gz \
+	dist/storaged/po.zh_TW.js.gz \
+	dist/storaged/storage.css.gz \
+	dist/storaged/storage.js.LICENSE.txt.gz \
+	dist/storaged/storage.js.gz \
+	dist/storaged/test-util.css \
+	dist/storaged/test-util.html \
+	dist/storaged/test-util.js \
+	dist/storaged/test-util.js.LICENSE.txt \
+	$(NULL)
+
+storaged_INSTALL = \
+	dist/storaged/images/storage-array.png \
+	dist/storaged/images/storage-disk.png \
+	dist/storaged/index.html.gz \
+	dist/storaged/manifest.json \
+	dist/storaged/po.cs.js.gz \
+	dist/storaged/po.de.js.gz \
+	dist/storaged/po.es.js.gz \
+	dist/storaged/po.fi.js.gz \
+	dist/storaged/po.fr.js.gz \
+	dist/storaged/po.he.js.gz \
+	dist/storaged/po.it.js.gz \
+	dist/storaged/po.ja.js.gz \
+	dist/storaged/po.ka.js.gz \
+	dist/storaged/po.ko.js.gz \
+	dist/storaged/po.nb_NO.js.gz \
+	dist/storaged/po.nl.js.gz \
+	dist/storaged/po.pl.js.gz \
+	dist/storaged/po.pt_BR.js.gz \
+	dist/storaged/po.ru.js.gz \
+	dist/storaged/po.sk.js.gz \
+	dist/storaged/po.sv.js.gz \
+	dist/storaged/po.tr.js.gz \
+	dist/storaged/po.uk.js.gz \
+	dist/storaged/po.zh_CN.js.gz \
+	dist/storaged/po.zh_TW.js.gz \
+	dist/storaged/storage.css.gz \
+	dist/storaged/storage.js.LICENSE.txt.gz \
+	dist/storaged/storage.js.gz \
+	$(NULL)
+
+storaged_TESTS = \
+	dist/storaged/test-util.html \
+	$(NULL)
+
+dist/storaged/manifest.json: $(storaged_INPUTS)
+
+dist/storaged/images/storage-array.png: dist/storaged/manifest.json
+
+dist/storaged/images/storage-disk.png: dist/storaged/manifest.json
+
+dist/storaged/index.html.gz: dist/storaged/manifest.json
+
+dist/storaged/po.cs.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.de.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.es.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.fi.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.fr.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.he.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.it.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.ja.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.ka.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.ko.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.nb_NO.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.nl.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.pl.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.pt_BR.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.ru.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.sk.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.sv.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.tr.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.uk.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.zh_CN.js.gz: dist/storaged/manifest.json
+
+dist/storaged/po.zh_TW.js.gz: dist/storaged/manifest.json
+
+dist/storaged/storage.css.gz: dist/storaged/manifest.json
+
+dist/storaged/storage.js.LICENSE.txt.gz: dist/storaged/manifest.json
+
+dist/storaged/storage.js.gz: dist/storaged/manifest.json
+
+dist/storaged/test-util.css: dist/storaged/manifest.json
+
+dist/storaged/test-util.html: dist/storaged/manifest.json
+
+dist/storaged/test-util.js: dist/storaged/manifest.json
+
+dist/storaged/test-util.js.LICENSE.txt: dist/storaged/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/cockpit-components-dialog.scss:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-install-dialog.css:
+
+pkg/lib/cockpit-components-install-dialog.jsx:
+
+pkg/lib/cockpit-components-listing-panel.jsx:
+
+pkg/lib/cockpit-components-listing-panel.scss:
+
+pkg/lib/cockpit-components-logs-panel.jsx:
+
+pkg/lib/cockpit-components-logs-panel.scss:
+
+pkg/lib/cockpit-components-plot.jsx:
+
+pkg/lib/cockpit-components-plot.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/inotify.py:
+
+pkg/lib/journal.css:
+
+pkg/lib/journal.js:
+
+pkg/lib/os-release.js:
+
+pkg/lib/packagekit.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/plot.js:
+
+pkg/lib/polyfills.js:
+
+pkg/lib/python.js:
+
+pkg/lib/qunit-config.js:
+
+pkg/lib/qunit-template.html:
+
+pkg/lib/qunit-tests.js:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/lib/table.css:
+
+pkg/lib/timeformat.js:
+
+pkg/lib/utils.jsx:
+
+pkg/storaged/block-details.jsx:
+
+pkg/storaged/clevis-luks-passphrase.sh:
+
+pkg/storaged/client.js:
+
+pkg/storaged/content-views.jsx:
+
+pkg/storaged/crypto-keyslots.jsx:
+
+pkg/storaged/crypto-panel.jsx:
+
+pkg/storaged/crypto-tab.jsx:
+
+pkg/storaged/details.jsx:
+
+pkg/storaged/devices.jsx:
+
+pkg/storaged/dialog.jsx:
+
+pkg/storaged/drive-details.jsx:
+
+pkg/storaged/drives-panel.jsx:
+
+pkg/storaged/format-dialog.jsx:
+
+pkg/storaged/fsys-panel.jsx:
+
+pkg/storaged/fsys-tab.jsx:
+
+pkg/storaged/images/storage-array.png:
+
+pkg/storaged/images/storage-disk.png:
+
+pkg/storaged/index.html:
+
+pkg/storaged/iscsi-panel.jsx:
+
+pkg/storaged/jobs-panel.jsx:
+
+pkg/storaged/logs-panel.jsx:
+
+pkg/storaged/luksmeta-monitor-hack.py:
+
+pkg/storaged/lvol-tabs.jsx:
+
+pkg/storaged/manifest.json:
+
+pkg/storaged/mdraid-details.jsx:
+
+pkg/storaged/mdraids-panel.jsx:
+
+pkg/storaged/mount-users.py:
+
+pkg/storaged/multipath.jsx:
+
+pkg/storaged/nfs-details.jsx:
+
+pkg/storaged/nfs-mounts.py:
+
+pkg/storaged/nfs-panel.jsx:
+
+pkg/storaged/optional-panel.jsx:
+
+pkg/storaged/others-panel.jsx:
+
+pkg/storaged/overview.jsx:
+
+pkg/storaged/part-tab.jsx:
+
+pkg/storaged/plot.jsx:
+
+pkg/storaged/side-panel.jsx:
+
+pkg/storaged/storage-controls.jsx:
+
+pkg/storaged/storage.scss:
+
+pkg/storaged/stratis-details.jsx:
+
+pkg/storaged/stratis-panel.jsx:
+
+pkg/storaged/stratis2-set-key.py:
+
+pkg/storaged/stratis3-set-key.py:
+
+pkg/storaged/swap-tab.jsx:
+
+pkg/storaged/test-util.js:
+
+pkg/storaged/things-panel.jsx:
+
+pkg/storaged/unrecognized-tab.jsx:
+
+pkg/storaged/utils.js:
+
+pkg/storaged/vdo-details.jsx:
+
+pkg/storaged/vdo-monitor.py:
+
+pkg/storaged/vdos-panel.jsx:
+
+pkg/storaged/vgroup-details.jsx:
+
+pkg/storaged/vgroups-panel.jsx:
+
+pkg/storaged/warnings.jsx:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ka.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(storaged_INPUTS)
+WEBPACK_OUTPUTS += $(storaged_OUTPUTS)
+WEBPACK_INSTALL += $(storaged_INSTALL)
+WEBPACK_GZ_INSTALL += $(storaged_GZ_INSTALL)
+TESTS += $(storaged_TESTS)
+
+storaged: dist/storaged/manifest.json
