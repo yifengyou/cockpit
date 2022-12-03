@@ -2,6 +2,7 @@ RPMS
 SRPMS
 BUILDROOT
 *.rpm
+cockpit-data
 
 
 
