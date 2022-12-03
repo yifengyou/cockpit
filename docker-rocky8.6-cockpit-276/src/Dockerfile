@@ -1,5 +1,5 @@
 FROM rockylinux:8.6
-LABEL maintainers="yifengyou <nicyou@tencent.com>"
+LABEL maintainers="yifengyou <842056007@qq.com>"
 
 RUN dnf install -y epel-release && cat /etc/yum.repos.d/*.repo && dnf makecache && \
     dnf -y install systemd findutils \
