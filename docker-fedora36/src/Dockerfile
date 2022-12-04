@@ -1,7 +1,9 @@
-FROM rockylinux:8.6
+FROM fedora:36
 LABEL maintainers="yifengyou <842056007@qq.com>"
 
-RUN dnf install -y epel-release && cat /etc/yum.repos.d/*.repo && dnf makecache && \
+RUN mkdir /etc/yum.repos.d/back && mv /etc/yum.repos.d/*.repo /etc/yum.repos.d/back && \
+    curl -o /etc/yum.repos.d/fedora.repo http://mirrors.aliyun.com/repo/fedora.repo && \
+    cat /etc/yum.repos.d/*.repo && dnf makecache && \
     dnf -y install systemd findutils \
                    which passwd \
                    && \

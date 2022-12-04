@@ -14,8 +14,6 @@ systemctl disable --now firewalld &> /dev/null || true
 setenforce 0 || true
 
 # enable service
-cp /usr/share/osbuild-composer/repositories/rocky-87.json /usr/share/osbuild-composer/repositories/rocky-86.json
-sed -i 's/8\.7/8\.6/g' /usr/share/osbuild-composer/repositories/rocky-86.json
 systemctl enable --now osbuild-composer.socket osbuild-local-worker.socket cockpit.socket
 systemctl enable --now podman
 #systemctl enable --now pmlogger.service || true
